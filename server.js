@@ -35,8 +35,8 @@ const initializeDataBse = async () => {
         )`
     );
 
-    app.listen(5000, () => {
-      console.log("server running on localhost:5000");
+    app.listen(3000, () => {
+      console.log("server running on localhost:3000");
     });
   } catch (e) {
     console.log(`DB ERROR: ${e.message}`);
